@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage> {
                 itemBuilder: (context, index) {
 
                   UserInformation information=state.usermodellist![index];
-                  return ListTile(leading: Text(information.title.toString()),);
+                  return Text(information.title.toString());
                 });
           }else{
             return SizedBox();
